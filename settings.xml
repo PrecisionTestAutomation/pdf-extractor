@@ -1,0 +1,21 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>gpg</id>
+            <properties>
+                <gpg.executable>gpg</gpg.executable>
+                <gpg.passphrase>India@1947</gpg.passphrase>
+            </properties>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>gpg</activeProfile>
+    </activeProfiles>
+    <servers>
+        <server>
+            <id>central</id>
+            <username>aEc0G2X+</username>
+            <password>w/G9PpwfI1nMohqtqQYE7uW3g1ZmENi9eDeyzHx1eEwz</password>
+        </server>
+    </servers>
+</settings>
