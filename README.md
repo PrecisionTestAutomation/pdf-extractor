@@ -30,25 +30,26 @@ java -cp target/pdf-extractor-1.0.0.jar com.yourpackage.Main
 ### Provide the PDF Path
 When prompted, enter the path to the PDF file:
 ```
-Enter the path to the PDF file: /path/to/your/file.pdf
+Enter the directory path containing PDFs: /path/to/your/pdf/directory/
+Enter the output file path: /path/to/your/output/filename.txt
 ```
 ### View the Output
-The application will output the extracted text and links to the terminal.
+The application will save the extracted text and links in a text file.
 
 ## Programmatic Usage
 Add Dependency
 Add the following dependency to your pom.xml:
 ```
 <dependency>
-    <groupId>com.example.pdf</groupId>
+    <groupId>in.precisiontestautomation.scriptlessautomation</groupId>
     <artifactId>pdf-extractor</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
 </dependency>
 ```
 **Use PdfTextExtractor and PdfLinkExtractor Classes**
 ```
-import com.yourpackage.PdfTextExtractor;
-import com.yourpackage.PdfLinkExtractor;
+import in.precisiontestautomation.PdfTextExtractor;
+import in.precisiontestautomation.PdfLinkExtractor;
 
 public class Example {
     public static void main(String[] args) {
